@@ -10,6 +10,10 @@ int main()
         return "Hello world";
     });
 
+    CROW_ROUTE(app, "/hello/<string>")([](const std::string& name) {
+        return "hello, " + name;
+    });
+
     //set the port, set the app to run on multiple threads, and run the app
     app.bindaddr("127.0.0.1").port(18080).multithreaded().run();
 }
