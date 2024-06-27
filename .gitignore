@@ -1,0 +1,34 @@
+# Ignore build artifacts
+/build/*
+/CMakeFiles
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# Ignore Boost library files
+/boost_*
+
+# Ignore compiled object files and executables
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.log
+
+# Ignore editor-specific files
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore CMake generated files
+CMakeLists.txt.user
+

@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/thandoncube/Documents/Programming/cplusplus/boost_1_85_0 -I/Users/thandoncube/Documents/Programming/cplusplus/crow/include
+CXX_INCLUDES = -I/Users/thandoncube/Documents/Programming/cplusplus/boost_1_81_0 -I/Users/thandoncube/Documents/Programming/cplusplus/crow/include
 
-CXX_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+CXX_FLAGS =  -w -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
 
